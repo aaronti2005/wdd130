@@ -40,3 +40,9 @@ code {
     background-color: #3d503d;
     color: #fff;
 }
+
+img,
+a,
+button {
+    margin: 0 50px 0 50px;
+}

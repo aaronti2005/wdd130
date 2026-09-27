@@ -4,6 +4,7 @@
     --accent1-color: #264653;
     --accent2-color: #a1a56b;
     --white-color: #fff;
+    --black-color: #000;
     --color-nav: #f7ffca;
     --color-nav2: #ee4a4a;
     --heading-font: "Times New Roman", "Georgia", serif;
@@ -111,7 +112,7 @@ h1 {
     padding: 8px 24px;
     opacity: 0.9;
     background-color: var(--accent2-color);
-    color: var(--white-color);
+    color: var(--black-color);
 }
 
 .hero article img {

@@ -93,7 +93,7 @@ article {
     height: auto;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -200,6 +200,10 @@ footer {
     text-align: center;
     padding: 20px;
 
+}
+
+.information h1 {
+    grid-column: 1/4;
 }
 
 .information p {

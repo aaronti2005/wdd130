@@ -144,7 +144,8 @@ article {
 .grid-section2 h2,
 .grid-section1 h2,
 .grid-section3 h2,
-.home-grid-section2 h2 {
+.home-grid-section2 h2,
+.trips-grid-section2 h2 {
     background-color: var(--secondary-color);
     color: var(--w-color);
     text-align: center;
@@ -414,4 +415,103 @@ button {
     align-self: start;
     grid-row: 4;
 
+}
+
+/* Trips page */
+.action-contact {
+    text-align: center;
+}
+
+.action-contact h2 {
+    background-color: var(--secondary-color);
+    color: var(--w-color);
+    margin: 20px;
+    margin-top: 0;
+    padding: .3rem 8rem;
+    display: inline-block;
+}
+
+.action-contact p {
+    margin: 20px 0;
+}
+
+.action-contact a {
+    text-decoration: none;
+    display: block;
+}
+
+.action-contact h2:hover {
+    background-color: var(--accent2-color);
+    color: var(--b-color);
+}
+
+.trips-grid-section2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 2 1fr;
+    gap: 20px;
+    text-align: center;
+    max-width: 1100px;
+    width: 100%;
+    margin: 0;
+    padding: 0%;
+
+}
+
+.trips-grid-section2 h2 {
+    grid-column: 1/4;
+    width: 100%;
+}
+
+.trips-grid-section2 img {
+    width: 100%;
+    max-width: 200px;
+    display: block;
+    margin: 0 auto;
+    height: 140px;
+    object-fit: cover;
+}
+
+.figure1 {
+    grid-column: 1/4;
+    border-bottom: 1px solid var(--b-color);
+}
+
+.figure2 {
+    border-left: 1px solid var(--b-color);
+
+}
+
+.trips-table-section {
+    max-width: 900px;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+.trips-table-section h2 {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: var(--secondary-color);
+    color: var(--w-color);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: var(--w-color);
+    box-shadow: 0 2px 5px var(--b-color)
+}
+
+th,
+td {
+    padding: 12px 15px;
+    border: 1px solid var(--b-color);
+    text-align: center;
+}
+
+th {
+    background-color: var(--primary-color);
+    color: var(--w-color);
+    font-weight: bold;
 }

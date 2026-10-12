@@ -145,7 +145,8 @@ article {
 .grid-section1 h2,
 .grid-section3 h2,
 .home-grid-section2 h2,
-.trips-grid-section2 h2 {
+.trips-grid-section2 h2,
+.action-contact h1 {
     background-color: var(--secondary-color);
     color: var(--w-color);
     text-align: center;
@@ -422,7 +423,7 @@ button {
     text-align: center;
 }
 
-.action-contact h2 {
+.action-contact h1 {
     background-color: var(--secondary-color);
     color: var(--w-color);
     margin: 20px;
@@ -440,7 +441,7 @@ button {
     display: block;
 }
 
-.action-contact h2:hover {
+.action-contact h1:hover {
     background-color: var(--accent2-color);
     color: var(--b-color);
 }
